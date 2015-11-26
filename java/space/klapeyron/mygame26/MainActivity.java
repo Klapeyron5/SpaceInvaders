@@ -17,6 +17,9 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
+/*
+ *single and main activity in app
+ */
 public class MainActivity extends Activity {
 
     public final static String commonTAG = "commonTAG";
