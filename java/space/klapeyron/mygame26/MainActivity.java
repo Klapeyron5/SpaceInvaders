@@ -37,9 +37,13 @@ public class MainActivity extends Activity {
     public final static int STATE_CONTACTS = 5;
 
     /*
-     *SurfaceView for often rendering game
+     *SurfaceView for often rendering playing game
      */
     GameView gameView;
+    /*
+     *SurfaceView for rendering defeating game
+     */
+    GameView defeatView;
 
     /*
      *Absolute record (save for current device)
